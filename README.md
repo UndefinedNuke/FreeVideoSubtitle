@@ -66,7 +66,7 @@ python subtitle_app.py
 Have questions, suggestions, or found a bug? Feel free to reach out!
 
 * **Telegram:** [@lirrise](https://www.google.com/search?q=https://t.me/lirrise)
-* **Discord:** `mmanchhh`
+* **Discord:** [`mmanchhh`](https://discord.com/users/1542828483535835186)
 * **Discord Server:** Join our community server to stay updated on new projects and developments: [Join Discord Server](https://discord.gg/) *(insert your invite link here)*
 
 ---
