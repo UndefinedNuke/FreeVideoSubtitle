@@ -1,0 +1,39 @@
+# 🎬 FreeVideoSubtitle (FuckingVideo)
+
+An automated desktop application for generating AI-powered subtitles using OpenAI Whisper and burning them directly into videos via FFmpeg with a custom graphical interface.
+
+---
+
+## 🛠️ Prerequisites & Requirements
+
+To build and run this project, make sure you have the following installed on your Windows PC:
+
+1. **Python (v3.14 or latest recommended)**
+   * Download and install Python from the official website: [Python Downloads](https://www.python.org/downloads/)
+   * ⚠️ **Important:** During installation, make sure to check the box **"Add Python to PATH"**.
+
+2. **FFmpeg**
+   * Download the official FFmpeg build for Windows: [FFmpeg Builds by BtbN](https://github.com/BtbN/FFmpeg-Builds/releases) (choose `ffmpeg-n7.0-latest-win64-gpl-7.0.zip` or similar).
+   * Extract **`ffmpeg.exe`** directly into the **project root folder** (right next to `build.bat` and `subtitle_app.py`). *(Note: The build script can also attempt to download it automatically, but manual placement is recommended).*
+
+---
+
+## 🚀 How to Build and Run
+
+1. Make sure all project files are in the same folder:
+   * `subtitle_app.py`
+   * `requirements.txt`
+   * `build.bat`
+   * `ffmpeg.exe` (placed in the root folder)
+
+2. **Double-click on `build.bat`**. 
+   * The script will automatically:
+     * Verify your Python installation.
+     * Create a clean virtual environment (`venv`).
+     * Install all necessary dependencies (`openai-whisper`, `customtkinter`, `pyinstaller`, etc.) from `requirements.txt`.
+     * Compile the script into a standalone `.exe` application via PyInstaller.
+
+3. Once the process is finished, you will find your standalone application inside the newly created folder:
+   * `dist\FuckingVideo\FuckingVideo.exe`
+
+4. You can zip the entire `FuckingVideo` folder from `dist\` and share it with anyone. They won't need Python or any external tools installed to run it!
